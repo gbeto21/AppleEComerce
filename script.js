@@ -21,7 +21,6 @@ const slideshow = () => {
   setInterval(() => {
     a++
     const div = document.querySelector(".slideshow .change")
-    console.log(div)
 
     div.classList.remove("change")
 
